@@ -16,6 +16,10 @@ SPARK_HOME  = C:\apps\spark-3.0.0-bin-hadoop2.7
 HADOOP_HOME = C:\apps\spark-3.0.0-bin-hadoop2.7
 PATH=%PATH%;C:\apps\spark-3.0.0-bin-hadoop2.7\bin
 
+** Spark Shell + Web UI
+- $SPARK_HOME/sbin/pyspark
+
+
 
 ```
 
