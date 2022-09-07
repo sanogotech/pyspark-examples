@@ -19,6 +19,8 @@ PATH=%PATH%;C:\apps\spark-3.0.0-bin-hadoop2.7\bin
 ** Spark Shell + Web UI
 - $SPARK_HOME/sbin/pyspark
 
+Spark-shell also creates a Spark context web UI and by default, it can access from http://localhost:4041.
+
 
 
 ```
