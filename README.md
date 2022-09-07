@@ -25,6 +25,14 @@ Spark-shell also creates a Spark context web UI and by default, it can access fr
 
 ```
 
+* Spark
+```
+
+spark-submit --version
+spark-shell --version
+spark-sql --version
+```
+
 
 
 # Table of Contents (Spark Examples in Python)
