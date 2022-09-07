@@ -36,6 +36,7 @@ spark-sql --version
 * Jupyter  notebook
 ```
 pip install jupyter
+jupyter notebook
 
 
 ```
