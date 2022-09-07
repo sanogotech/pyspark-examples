@@ -27,7 +27,7 @@ Spark-shell also creates a Spark context web UI and by default, it can access fr
 
 * Spark
 ```
-
+scala -version
 spark-submit --version
 spark-shell --version
 spark-sql --version
