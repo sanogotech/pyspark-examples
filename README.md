@@ -33,7 +33,12 @@ spark-shell --version
 spark-sql --version
 ```
 
+* Jupyter  notebook
+```
+pip install jupyter
 
+
+```
 
 # Table of Contents (Spark Examples in Python)
 
