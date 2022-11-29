@@ -1,8 +1,23 @@
 Explanation of all PySpark RDD, DataFrame and SQL examples present on this project are available at [Apache PySpark Tutorial](https://sparkbyexamples.com/pyspark-tutorial/), All these examples are coded in Python language and tested in our development environment.
 
 
+##  SparkSession
+
+SparkSession also includes all the APIs available in different contexts –
+
+```
+SparkContext,
+SQLContext,
+StreamingContext,
+HiveContext.
+
+```
+
+
+
 ##  Docs
 - https://sparkbyexamples.com/pyspark-tutorial/
+- https://sparkbyexamples.com/pyspark/pyspark-what-is-sparksession/
 
 ## Install
 
@@ -38,6 +53,18 @@ spark-sql --version
 pip install jupyter
 jupyter notebook
 
+
+```
+
+# Create SparkSession from builder
+
+```scala
+
+import pyspark
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.master("local[1]") \
+                    .appName('SparkByExamples.com') \
+                    .getOrCreate()
 
 ```
 
