@@ -8,8 +8,13 @@ Created on Sun Jun 14 10:20:19 2020
 import pyspark
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col
+#import findspark
 
-spark = SparkSession.builder.appName('SparkByExamples.com').getOrCreate()
+#findspark.init()
+
+spark = SparkSession.builder.appName('Basics').getOrCreate()
+
+#spark = SparkSession.builder.appName('SparkByExamples.com').getOrCreate()
 
 ## https://www.learnbymarketing.com/1100/pyspark-joins-by-example/
 

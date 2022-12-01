@@ -56,6 +56,19 @@ jupyter notebook
 
 ```
 
+## The spark-submit
+
+```
+The spark-submit command is a utility to run or submit a Spark or PySpark application program (or job) to the cluster by specifying options and configurations, the application you are submitting can be written in Scala, Java, or Python (PySpark). spark-submit command supports the following.
+
+Submitting Spark application on different cluster managers like Yarn, Kubernetes, Mesos, and Stand-alone.
+Submitting Spark application on client or cluster deployment modes.
+```
+
+```
+ spark-3.0.1-bin-hadoop3.2/bin/spark-submit test.py
+ ```
+
 # Create SparkSession from builder
 
 ```scala
